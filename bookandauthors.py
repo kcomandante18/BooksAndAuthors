@@ -1,4 +1,3 @@
-
 class Book:
     def __init__(self, title, author, pages):  # Encapsulation: Constructor to initialize object state
         self._title = title  
@@ -9,7 +8,6 @@ class Book:
         print(f"Title: {self._title}")  
         print(f"Author: {self._author}")  
         print(f"Pages: {self._pages}")  
-
 
 
 class Fiction(Book):  # Inheritance: Fiction class inherits from Book class
@@ -54,5 +52,3 @@ for info in fiction_books:
     
 nonfiction_book = NonFiction(*nonfiction_info)
 nonfiction_book.display_info()
-
-
