@@ -23,7 +23,6 @@ class Fiction(Book):  # Inheritance: Fiction class inherits from Book class
         super().display_info()  
         self.display_genre()  
 
-
 class NonFiction(Book):  # Inheritance: NonFiction class inherits from Book class
     def __init__(self, title, author, pages, topic):  
         super().__init__(title, author, pages) 
@@ -40,9 +39,10 @@ class NonFiction(Book):  # Inheritance: NonFiction class inherits from Book clas
 # Create objects using tuples
 fiction_books = [
     ("And Then There Were None", "Agatha Christie", 200, "Mystery"),
-    ("Harry Potter and the Philosopher's Stone", "J.K. Rowling", 320, "Fantasy")
-]
+    ("Harry Potter and the Philosopher's Stone", "J.K. Rowling", 320, "Fantasy") ]
+
 nonfiction_info = ("Sapiens", "Yuval Noah Harari", 443, "History")
+
 
 # Create objects and call methods
 for info in fiction_books:
@@ -52,3 +52,4 @@ for info in fiction_books:
     
 nonfiction_book = NonFiction(*nonfiction_info)
 nonfiction_book.display_info()
+
