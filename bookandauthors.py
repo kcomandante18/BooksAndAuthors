@@ -9,7 +9,6 @@ class Book:
         print(f"Author: {self._author}")  
         print(f"Pages: {self._pages}")  
 
-
 class Fiction(Book):  # Inheritance: Fiction class inherits from Book class
     def __init__(self, title, author, pages, genre): 
         super().__init__(title, author, pages) 
@@ -43,7 +42,6 @@ fiction_books = [
 
 nonfiction_info = ("Sapiens", "Yuval Noah Harari", 443, "History")
 
-
 # Create objects and call methods
 for info in fiction_books:
     fiction_book = Fiction(*info)
@@ -52,4 +50,5 @@ for info in fiction_books:
     
 nonfiction_book = NonFiction(*nonfiction_info)
 nonfiction_book.display_info()
+
 
