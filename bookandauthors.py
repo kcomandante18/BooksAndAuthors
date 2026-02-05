@@ -1,3 +1,4 @@
+
 class Book:
     def __init__(self, title, author, pages):  # Encapsulation: Constructor to initialize object state
         self._title = title  
@@ -50,5 +51,3 @@ for info in fiction_books:
     
 nonfiction_book = NonFiction(*nonfiction_info)
 nonfiction_book.display_info()
-
-
