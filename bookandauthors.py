@@ -1,6 +1,6 @@
 
 class Book:
-    def __init__(self, title, author, pages):  # Encapsulation: Constructor to initialize object state
+    def __init__(self, title, author, pages):  # Encapsulation: Constructor to initialize object state.
         self._title = title  
         self._author = author 
         self._pages = pages  
@@ -10,28 +10,28 @@ class Book:
         print(f"Author: {self._author}")  
         print(f"Pages: {self._pages}")  
 
-class Fiction(Book):  # Inheritance: Fiction class inherits from Book class
+class Fiction(Book):  # Inheritance: Fiction class inherits from Book class.
     def __init__(self, title, author, pages, genre): 
         super().__init__(title, author, pages) 
         self._genre = genre  
 
-    def display_genre(self):  # Polymorphism: Method specific to Fiction class
+    def display_genre(self):  # Polymorphism: Method specific to Fiction class.
         print(f"Genre: {self._genre}")
 
-    # Polymorphism: Overriding the display_info method
+    # Polymorphism: Overriding the display_info method.
     def display_info(self): 
         super().display_info()  
         self.display_genre()  
 
-class NonFiction(Book):  # Inheritance: NonFiction class inherits from Book class
+class NonFiction(Book):  # Inheritance: NonFiction class inherits from Book class.
     def __init__(self, title, author, pages, topic):  
         super().__init__(title, author, pages) 
         self._topic = topic  
 
-    def display_topic(self):  # Polymorphism: Method specific to NonFiction class
+    def display_topic(self):  # Polymorphism: Method specific to NonFiction class.
         print(f"Topic: {self._topic}")
 
-    # Polymorphism: Overriding the display_info method
+    # Polymorphism: Overriding the display_info method.
     def display_info(self):  
         super().display_info() 
         self.display_topic() 
