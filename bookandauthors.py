@@ -49,7 +49,6 @@ for info in fiction_books:
     fiction_book = Fiction(*info)
     fiction_book.display_info()
     print("-" * 20)
- 
-   
+    
 nonfiction_book = NonFiction(*nonfiction_info)
 nonfiction_book.display_info()
