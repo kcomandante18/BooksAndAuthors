@@ -10,6 +10,7 @@ class Book:
         print(f"Author: {self._author}")  
         print(f"Pages: {self._pages}")  
 
+
 class Fiction(Book):  # Inheritance: Fiction class inherits from Book class.
     def __init__(self, title, author, pages, genre): 
         super().__init__(title, author, pages) 
