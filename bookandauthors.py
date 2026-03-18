@@ -5,6 +5,7 @@ class Book:
         self._author = author 
         self._pages = pages  
 
+
     def display_info(self):  # Abstraction: Exposes only necessary features to interact with the class
         print(f"Title: {self._title}")  
         print(f"Author: {self._author}")  
