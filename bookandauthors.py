@@ -45,7 +45,6 @@ fiction_books = [
 
 nonfiction_info = ("Sapiens", "Yuval Noah Harari", 443, "History")
 
-
 # Create objects and call methods
 for info in fiction_books:
     fiction_book = Fiction(*info)
