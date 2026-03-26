@@ -41,7 +41,7 @@ fiction_books = [
     ("And Then There Were None", "Agatha Christie", 200, "Mystery"),
     ("Harry Potter and the Philosopher's Stone", "J.K. Rowling", 320, "Fantasy") ] 
 
-nonfiction_info = ("Sapiens", "Yuval Noah Harari", 443, "History") 
+nonfiction_info = ("Sapiens", "Yuval Noah Harari", 443, "History")  
 
 # Create objects and call methods
 for info in fiction_books:
