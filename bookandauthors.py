@@ -32,7 +32,7 @@ class NonFiction(Book):  # Inheritance: NonFiction class inherits from Book clas
         print(f"Topic: {self._topic}")
 
     # Polymorphism: Overriding the display_info method.
-    def display_info(self):  
+    def display_info(self):   
         super().display_info() 
         self.display_topic() 
 
