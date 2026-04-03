@@ -17,7 +17,7 @@ class Fiction(Book):  # Inheritance: Fiction class inherits from Book class.
 
     def display_genre(self):  # Polymorphism: Method specific to Fiction class.
         print(f"Genre: {self._genre}")    
-
+ 
     # Polymorphism: Overriding the display_info method.
     def display_info(self):  
         super().display_info()  
