@@ -34,7 +34,7 @@ class NonFiction(Book):  # Inheritance: NonFiction class inherits from Book clas
     # Polymorphism: Overriding the display_info method.
     def display_info(self):   
         super().display_info() 
-        self.display_topic() 
+        self.display_topic()  
 
 # Create objects using tuples
 fiction_books = [
