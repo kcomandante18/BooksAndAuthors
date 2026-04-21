@@ -23,7 +23,7 @@ class Fiction(Book):  # Inheritance: Fiction class inherits from Book class.
         super().display_info()  
         self.display_genre()  
 
-class NonFiction(Book):  # Inheritance: NonFiction class inherits from Book class.
+class NonFiction(Book):  # Inheritance: NonFiction class inherits from Book class. 
     def __init__(self, title, author, pages, topic):  
         super().__init__(title, author, pages)  
         self._topic = topic     
