@@ -1,5 +1,5 @@
  
-class Book:
+class Book: 
     def __init__(self, title, author, pages):  # Encapsulation: Constructor to initialize object state.   
         self._title = title    
         self._author = author     
