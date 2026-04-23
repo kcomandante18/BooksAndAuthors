@@ -12,7 +12,7 @@ class Book:
    
 class Fiction(Book):  # Inheritance: Fiction class inherits from Book class. 
     def __init__(self, title, author, pages, genre):       
-        super().__init__(title, author, pages) 
+        super().__init__(title, author, pages)  
         self._genre = genre    
  
     def display_genre(self):  # Polymorphism: Method specific to Fiction class.
