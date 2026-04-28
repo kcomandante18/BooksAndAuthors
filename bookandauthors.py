@@ -3,7 +3,7 @@ class Book:
     def __init__(self, title, author, pages):  # Encapsulation: Constructor to initialize object state.   
         self._title = title      
         self._author = author        
-        self._pages = pages        
+        self._pages = pages         
         
     def display_info(self):  # Abstraction: Exposes only necessary features to interact with the class    
         print(f"Title: {self._title}")    
